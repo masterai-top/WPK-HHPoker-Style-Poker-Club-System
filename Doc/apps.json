@@ -1,0 +1,133 @@
+{
+    "apps" : {
+        "10000": {
+            "store_url" : "https://update.wonderpoker.io/new-depu/Packs/Upgrade/OpenDownLoad.html",
+            "1" : {
+                "status" : "development",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : false,
+                "is_open_sandbox" : true,
+                "is_open_report" : false
+            }
+        },
+        "10001": {
+            "store_url" : "https://apps.apple.com/app/id1500365123",
+            "1" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "10" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "11" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            }
+        },
+		 "10002": {
+            "store_url" : "https://play.google.com/store/apps/details?id=com.master.wonderpoker",
+            "1" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "43" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "44" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            }
+        },
+		 "20002": {
+            "store_url" : "http://update.wonderpoker.io/download/Android/apg_product.apk",
+            "1" : {
+                "status" : "production",
+                "is_open_upgrade" : false,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "42" : {
+                "status" : "production",
+                "is_open_upgrade" : false,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            },
+            "43" : {
+                "status" : "production",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : true,
+                "is_open_sandbox" : true
+            }
+        },
+          "10003": {
+            "store_url" : "http://10.10.10.44/Packs/Upgrade/OpenDownLoad.html",
+            "1" : {
+                "status" : "development",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : false,
+                "is_open_sandbox" : true
+            }
+        },
+          "10004": {
+            "store_url" : "http://10.10.10.44/Packs/Upgrade/OpenDownLoad.html",
+            "1" : {
+                "status" : "development",
+                "is_open_upgrade" : true,
+                "is_open_sdk" : false,
+                "is_open_sandbox" : true
+            }
+        }
+    },
+    "servers" : {
+        "auditing" : {
+            "res_url" : "https://update.wonderpoker.io/new-depu",
+            "res_url_backup" : "https://update-al.wonderpoker.io/new-depu",
+			"login_hosts": [
+				"https://apg.webm.wonderpoker.io:11000",
+				"https://apg.webb.wonderpoker.io:11000"
+			]
+        },
+        "production" : {
+            "res_url" : "https://update.wonderpoker.io/new-depu",
+            "res_url_backup" : "https://update-al.wonderpoker.io/new-depu",
+            "server_list_url": "https://update.wonderpoker.io/new-depu/Packs/Config/host_list.json",
+			"login_hosts": [
+				"https://apg.webm.wonderpoker.io:11000",
+				"https://apg.webb.wonderpoker.io:11000"
+			]
+        },
+        "development" : {
+            "res_url" : "http://10.10.10.44/",
+            "res_url_backup" : "http://10.10.10.44/",
+            "server_list_url": "http://10.10.10.44/Packs/Config/host_list.json",
+			"login_hosts": [
+				"http://10.10.10.111:22222",
+				"http://10.10.10.23:22222"
+			]
+        }
+    },
+	"langs":{
+		"ios":{"zh_TW":{"ab":"","mo":"335992945.mo"},"en":{"ab":"","mo":"2832065942.mo"},"zh_CN":{"ab":"","mo":"1036055431.mo"},"th":{"ab":"","mo":"432121022.mo"}},
+		"android":{"zh_TW":{"ab":"","mo":"335992945.mo"},"en":{"ab":"","mo":"2832065942.mo"},"zh_CN":{"ab":"","mo":"1036055431.mo"},"th":{"ab":"","mo":"432121022.mo"}},
+		"windows":{"zh_TW":{"ab":"","mo":"335992945.mo"},"en":{"ab":"","mo":"2832065942.mo"},"zh_CN":{"ab":"","mo":"1036055431.mo"},"th":{"ab":"","mo":"432121022.mo"}}
+	},
+	"version":{
+		"ios":{"appVer":"","resVer":"3.1.12","lowestResVer":"3.1.10","sentientResVer":"", "assets":[{"name":"3.1.10_3.1.12.zip","crc":229599333,"size":4774068},{"name":"3.1.11_3.1.12.zip","crc":3185117923,"size":4093179}]},
+		"android":{"appVer":"","resVer":"1.1.12","lowestResVer":"1.1.10","sentientResVer":"", "assets":[{"name":"1.1.10_1.1.12.zip","crc":1193548147,"size":6219831},{"name":"1.1.11_1.1.12.zip","crc":3789400404,"size":4162173}]},
+		"windows":{"appVer":"","resVer":"1.1.7","lowestResVer":"1.1.7","sentientResVer":"", "assets":[]}
+	}
+}
