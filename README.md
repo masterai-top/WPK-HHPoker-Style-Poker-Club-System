@@ -1,6 +1,6 @@
 # 🎰 德州扑克完整运营源码 | 德州源码 | 德州扑克源码 | 俱乐部+联盟+金币大厅|德州扑克俱乐部系统 | 多人棋牌平台
 
-> **德州俱乐部 + 私人局 + 好友局 + 联盟模式 | 完整C++服务端**
+> **德州俱乐部 + 私人局 + 好友局 + 联盟模式 | 完整unity+C++服务端**
 
 [![Contact](https://img.shields.io/badge/联系-TG%3A%40xuzongbin001-blue)](https://t.me/xuzongbin001)
 [![Platform](https://img.shields.io/badge/平台-iOS%20%7C%20Android%20%7C%20H5-green)]()
