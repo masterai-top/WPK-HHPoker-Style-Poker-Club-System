@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masterai-top.github.io/WPK-HHPoker-Style-Poker-Club-System/sitemap.xml
+
